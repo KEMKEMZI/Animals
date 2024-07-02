@@ -1,0 +1,154 @@
+@charset "UTF-8";
+html,body{
+    height: 100%;
+}
+
+#wrap{
+    width: 100%;
+    height: 100%;
+    /* margin: 0 auto; */
+}
+
+#header{
+}
+
+.fix{
+    position: fixed;
+}
+
+.logo_top_left{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    display: inline-block;
+
+}
+
+.logo_top_right{
+    position: absolute;
+    top: 100px;
+    right:100px;
+    display: inline-block;
+    position: fixed;
+}
+
+.first{
+    height: 100%;
+    background-image: url("../img/main_bg01.jpg");
+}
+
+.title_1{
+    /* height: 100%; */
+    border: 1px solid #000;
+    overflow: hidden;
+    text-align: center;
+
+}
+
+
+h1{
+    padding: 250px 0 20px;
+    font-size: 70px;
+    text-align: center;
+    border: 1px solid #000;
+    
+}
+
+span{
+    text-align: center;
+    font-size: 40px;
+    /* padding: 300px; */
+    border: 1px solid red;
+    display: block;
+}
+
+.title_1 div{ 
+    width: 392px;
+    height: 398px;
+    background-color: rgba(0, 0, 0,0.5); 
+    border: 1px solid blue;
+    display: inline-block;
+    margin: 30px 20px;
+    text-align: center;
+    padding: 65px;
+    overflow: hidden;
+}
+
+.title_1 div a{
+    display: inline-block;
+    padding: 10px;
+}
+.title_1 div h2{
+    display: inline-block;
+    padding: 10px;
+    font-size: 25px;
+}
+.title_1 div p{
+    font-size: 13px;
+}
+.title_1 div img{
+    padding: 15px;
+}
+
+.box1{
+    cursor: pointer;
+}
+
+.box1 a{
+    border: 1px red solid;
+    display: block;
+    
+}
+
+.box1 a img{}
+
+.box1 h2{}
+
+.box1 p{}
+
+.arrow{
+    /* padding: 15px;
+    margin: 30px; */
+}
+
+
+
+.box2{
+    cursor: pointer;
+}
+
+.box2 a{
+    border: 1px solid red;
+}
+
+.box3{
+    cursor: pointer;
+}
+
+.box3 a{
+    border: 1px red solid
+    ;
+}
+
+
+.second{
+    height: 100%;
+    background-image: url("../img/main_bg03.jpg");
+}
+
+.p_sub{
+    font-size: 20px;
+    text-align: center;
+    /* display: inline-block; */
+    margin-top: 20px;
+}
+
+.third{
+    height: 100%;
+    background-image: url("../img/main_bg02.jpg");
+}
+
+.fourth{
+    height: 100%;
+    background-image: url("../img/main_bg04.jpg");
+}
